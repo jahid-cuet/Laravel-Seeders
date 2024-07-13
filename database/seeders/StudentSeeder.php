@@ -26,5 +26,14 @@ class StudentSeeder extends Seeder
                 ]);
             });
 
+            // for($i=1; $i<10; $i++){
+            //     Student::create(
+            //         [
+            //             'name'=>fake()->name(),
+            //             'email'=>fake()->email()
+            //         ]
+            //         );
+            // }
+
     }
 }
