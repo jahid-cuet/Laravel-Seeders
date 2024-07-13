@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
 
             StudentSeeder::class
+            // for multiple just write 
+            // ,UserSer::class
         ]);
         // User::factory(10)->create();
 
